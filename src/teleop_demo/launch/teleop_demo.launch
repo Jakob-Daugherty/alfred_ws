@@ -1,0 +1,6 @@
+<launch>
+
+	<node name="stageros" pkg="stage_ros" type="stageros" args="/home/jadppf/alfred_ws/src/maps/simple_map.world" />
+	<node name="teleop_twist_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen" />
+
+</launch>
