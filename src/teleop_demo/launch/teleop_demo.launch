@@ -1,6 +1,9 @@
 <launch>
 
-	<node name="stageros" pkg="stage_ros" type="stageros" args="/home/jadppf/alfred_ws/src/maps/simple_map.world" />
+	<node name="stageros" pkg="stage_ros" type="stageros" args="/home/jakobdaugherty/alfred_ws/src/maps/simple_map.world" />
 	<node name="teleop_twist_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen" />
+
+	<!-- <include file="$(find ca_driver)/launch/create_2.launch" /> -->
+	<!-- <node pkg="ca_driver" type="wheel2twist_node" name="wheel2twist_node" /> -->
 
 </launch>

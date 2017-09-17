@@ -1,8 +1,8 @@
-prefix=/home/jadppf/alfred_ws/devel
+prefix=/home/jakobdaugherty/alfred_ws/devel
 
 Name: teleop_demo
 Description: Description of teleop_demo
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/jadppf/alfred_ws/devel/lib 
+Libs: -L/home/jakobdaugherty/alfred_ws/devel/lib 
 Requires: 
